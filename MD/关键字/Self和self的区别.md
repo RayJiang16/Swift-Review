@@ -15,7 +15,7 @@
 
 
 
-#### 例子
+#### Code
 
 ```swift
 extension BinaryInteger {

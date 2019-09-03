@@ -22,16 +22,17 @@
 
 ##### Swift 各种属性的本质
 
-- Swift 里 let 和 var 的理解？
-- Swift 里计算型属性的本质是什么？占多少个字节？是存储在当前对象里的吗？可以用 let 修饰吗？
-- 枚举的原始值的本质是什么？占几个字节？它在内存中是存储在枚举里吗？
-- lazy 属性可以用 let 修饰吗？lazy 属性是线程安全的吗？
-- 观察型属性在初始化的时候会触发吗？定义的时候给定默认值会触发吗？
-- Swift 里 inout 修饰的函数参数本质是什么？
-- inout 的参数能传递计算属性吗？传递计算属性的底层原理是什么？
-- inout 参数传递观察型属性会触发观察的 willSet 和 didSet 方法吗？底层原理又是什么？为什么这样设计？
-- 枚举可以定义存储属性吗？枚举可以定义类型存储属性吗？
-- 类型存储属性和 lazy 一样是延迟加载吗？如果一样那他时线程安全的吗？为什么？
+- [let 和 var 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/let和var的区别.md)
+- [计算型属性的本质是什么？占多少个字节？是存储在当前对象里的吗？可以用 let 修饰吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/计算属性.md)
+- [枚举的原始值的本质是什么？占几个字节？它在内存中是存储在枚举里吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/枚举.md)
+- [枚举可以定义存储属性吗？枚举可以定义类型存储属性吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/枚举2.md)
+- [关联类型枚举的内存布局是怎么样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/枚举3.md)
+- [lazy 属性可以用 let 修饰吗？lazy 属性是线程安全的吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/lazy.md)
+- [观察型属性在初始化的时候会触发吗？定义的时候给定默认值会触发吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/观察属性.md)
+- [inout 修饰的函数参数本质是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/inout.md)
+- [inout 参数能传递计算属性吗？传递计算属性的底层原理是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/inout2.md)
+- [inout 参数传递观察型属性会触发观察的 willSet 和 didSet 方法吗？底层原理是什么？为什么这样设计？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质/inout3.md)
+- 类型存储属性和 lazy 一样是延迟加载吗？如果一样那么是线程安全的吗？为什么？
 
 
 

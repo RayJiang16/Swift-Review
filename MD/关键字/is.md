@@ -18,7 +18,7 @@
 
 
 
-#### 例子
+#### Code
 
 ```swift
 struct A { }

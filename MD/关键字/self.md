@@ -19,7 +19,7 @@ let intMetatype: Int.Type = Int.self
 
 
 
-#### 例子
+#### Code
 
 ```swift
 // TableView 注册 Cell 的声明

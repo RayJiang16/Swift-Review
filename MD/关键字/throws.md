@@ -12,7 +12,7 @@
 
 
 
-#### 例子
+#### Code
 
 ```swift
 enum CustomError: Error {
