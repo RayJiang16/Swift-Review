@@ -55,12 +55,11 @@
 
 
 
-##### Swift 多态原理 Swift 方法派发
+##### Swift 多态&方法派发
 
-- Swift 里是怎样实现多态的？
-- Swift 支持哪些方法派发方式？内部机制又是怎样的？
-- 引用类型、值类型、协议的方法派发有什么不同？
-- 为什么官方建议使用值类型+枚举的组合而不使用引用类型？
+- [Swift 里是怎样实现多态的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多态/多态.md)
+- [Swift 支持哪些方法派发方式？引用类型、值类型、协议的方法派发有什么不同？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多态/方法派发.md)
+- [为什么建议使用 struct 而不使用 class？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多态/Q1.md)
 
 
 
