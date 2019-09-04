@@ -36,24 +36,22 @@
 
 
 
-##### String, Araay, Option 本质
+##### String, Array, Option 本质
 
-- Swift 一个 String 类型占多少个字节？String 类型变量的字面量在内存中是怎样存储的？
-- 字面量长度小于 16 个字节是怎样存储的？大于 16 个字节又是怎样存储的？
-- 如何计算一个 Swift 数组在内存中的大小？数组存储在栈空间还是堆空间？
-- Swift 可选类型的本质？
+- [String 类型占多少个字节？String 类型变量的字面量在内存中是怎样存储的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质2/String.md)
+- [数组在内存中占多少个字节？数组存储在栈空间还是堆空间？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质2/Array.md)
+- [可选类型的本质？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/探究本质2/Option.md)
 
 
 
 ##### Swift 闭包的本质
 
-- Swift 闭包的理解？本质是什么？闭包表达式和闭包是什么关系？
-- Swift 闭包值捕获的原理是什么？捕获到的值存储在哪里？
+- 闭包是什么？闭包表达式和闭包是什么关系？
+- 闭包值捕获的原理是什么？捕获到的值存储在哪里？
 - 捕获多个值时它们在内存中是连续存储的吗？
 - 一个捕获到 Int 值的闭包在内存中占几个字节？
 - DispatchQueue.async 闭包体内为什么要强制加 self. 访问成员变量？
 - 逃逸闭包是什么？
-- Swift 里的？运算符的作用是什么？本质是什么？
 
 
 
@@ -74,13 +72,13 @@
 
 #### 特效和优化
 
-##### 函数和协议编程 Swift 反射机制 Swif 性能优化
+##### 函数和协议编程 Swift 反射机制 Swift 性能优化
 
 - 大概描述一下 Swift 的编译流程？Swift 和 OC 的区别？
 - 面向协议编程的理解？对函数式编程的理解？
 - map 和 flatMap 的区别？
 - filter, reduce的理解？
-- 对 Swift 里反射机制的理解？
+- 对反射机制的理解？
 - 如何优化 Swift 性能？
 
 
