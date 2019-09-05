@@ -15,7 +15,7 @@
 #### Code
 
 ```swift
-let m = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter{ $0 % 2 == 0 }
+let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter{ $0 % 2 == 0 }
 // list = [2, 4, 6, 8, 10]
 
 let sum = [1, 2, 3, 4].reduce(into: 0) { (result, num) in
