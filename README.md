@@ -88,10 +88,10 @@
 
 #### 图像显示、卡顿优化和离屏渲染相关的问题
 
-- 图像绘制的原理和过程？
-- 卡顿掉帧的原因有哪些？卡顿掉帧应该怎么优化？
-- 什么是离屏渲染？系统进行离屏渲染的目的是什么？离屏渲染消耗性能的原因？
-- 哪些场景会触发离屏渲染？怎么解决？
+- [图像绘制的原理和过程？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/图像绘制.md)
+- [卡顿掉帧的原因？卡顿掉帧应该怎么优化？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/卡顿掉帧.md)
+- [什么是离屏渲染？为什么会有离屏渲染机制？离屏渲染消耗性能的原因？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/离屏渲染.md)
+- [哪些场景会触发离屏渲染？怎么解决？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/Q1.md)
 
 
 
