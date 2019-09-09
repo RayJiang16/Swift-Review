@@ -115,10 +115,9 @@
 
 #### 事件传递/响应机制
 
-- 系统对于事件是如何进行捕捉的？
-- 事件的传递和响应链你是怎样理解的？
-- 事件的传递和分发流程？hitTest 内部实现逻辑？
-- 事件传递具体有哪些应用场景？手动实现？
+- [手指触摸屏幕后发生了什么？事件的传递和响应链是怎么样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/事件传递和响应/事件.md)
+- [hitTest 内部实现逻辑？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/事件传递和响应/hitTest.md)
+- 事件传递具体有哪些应用场景？
 
 
 
