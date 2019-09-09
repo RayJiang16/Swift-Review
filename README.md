@@ -6,7 +6,7 @@
 
 ## Swift 底层本质
 
-#### 关键字
+### 关键字
 
 - [Self 和 self 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/Self和self的区别.md)
 - [.self 的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/self.md)
@@ -18,9 +18,9 @@
 
 
 
-#### 探究本质
+### 探究本质
 
-##### Swift 各种属性的本质
+#### Swift 各种属性的本质
 
 - [let 和 var 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/let和var的区别.md)
 - [计算型属性的本质是什么？占多少个字节？是存储在当前对象里的吗？可以用 let 修饰吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/计算属性.md)
@@ -36,7 +36,7 @@
 
 
 
-##### String, Array, Option 本质
+#### String, Array, Option 本质
 
 - [String 类型占多少个字节？String 类型变量的字面量在内存中是怎样存储的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质2/String.md)
 - [数组在内存中占多少个字节？数组存储在栈空间还是堆空间？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质2/Array.md)
@@ -44,7 +44,7 @@
 
 
 
-##### Swift 闭包的本质
+#### Swift 闭包的本质
 
 - [闭包是什么？闭包表达式和闭包是什么关系？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/闭包/闭包.md)
 - [闭包值捕获的原理是什么？捕获到的值存储在哪里？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/闭包/闭包捕获.md)
@@ -55,7 +55,7 @@
 
 
 
-##### Swift 多态&方法派发
+#### Swift 多态&方法派发
 
 - [Swift 里是怎样实现多态的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/多态/多态.md)
 - [Swift 支持哪些方法派发方式？引用类型、值类型、协议的方法派发有什么不同？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/多态/方法派发.md)
@@ -63,15 +63,15 @@
 
 
 
-##### Swift 里的指针
+#### Swift 里的指针
 
 - [Swift 里有那几种类型的指针？有什么区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/指针/指针.md)
 
 
 
-#### 特性和优化
+### 特性和优化
 
-##### 函数和协议编程 Swift 反射机制 Swift 性能优化
+#### 函数和协议编程 Swift 反射机制 Swift 性能优化
 
 - [大概描述一下 Swift 的编译流程？Swift 和 OC 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/特性和优化/Swift编译流程.md)
 - 面向协议编程的理解？对函数式编程的理解？
@@ -86,7 +86,7 @@
 
 ## UI
 
-#### 图像显示、卡顿优化和离屏渲染相关的问题
+### 图像显示、卡顿优化和离屏渲染相关的问题
 
 - [图像绘制的原理和过程？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/图像绘制.md)
 - [卡顿掉帧的原因？卡顿掉帧应该怎么优化？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/卡顿掉帧.md)
@@ -95,7 +95,7 @@
 
 
 
-#### 图片加载
+### 图片加载
 
 - 图片加载优化原理
 - 如何设计一个图片缓存框架？缓存清理怎样设计？
@@ -105,7 +105,7 @@
 
 
 
-#### 视图绘制
+### 视图绘制
 
 - 视图绘制的全流程有哪些阶段？
 - 什么是异步绘制，怎样进行异步绘制？
@@ -113,7 +113,7 @@
 
 
 
-#### 事件传递/响应机制
+### 事件传递/响应机制
 
 - [手指触摸屏幕后发生了什么？事件的传递和响应链是怎么样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/事件传递和响应/事件.md)
 - [hitTest 内部实现逻辑？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/事件传递和响应/hitTest.md)
@@ -121,7 +121,7 @@
 
 
 
-#### TableView
+### TableView
 
 - 对 TableView 重用机制的理解？
 - 如何实现一个自定义的重用池？
@@ -137,7 +137,7 @@
 
 ## 内存
 
-#### Swift 内存相关基础
+### Swift 内存相关基础
 
 - [iOS 内存布局结构？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/iOS内存布局.md)
 - [堆区和栈区的区别？为什么要设计堆和栈，主要解决哪些问题？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/堆区栈区.md)
@@ -151,7 +151,7 @@
 
 
 
-#### 内存布局
+### 内存布局
 
 - Swift 中结构体的内存布局？
 - Swift 中类的内存布局？有哪些数据结构？关系是怎样的？
@@ -163,7 +163,7 @@
 
 
 
-#### 循环引用
+### 循环引用
 
 - 你对循环引用的理解？强引用和弱引用的区别？
 - weak 和 unowned 有什么区别？
@@ -174,14 +174,14 @@
 
 
 
-#### 自动释放池
+### 自动释放池
 
 - 什么是自动释放池？自动释放池的管理原理是怎样的？
 - autoreleasePoolRunloop 的关系？
 
 
 
-#### Copy on write
+### Copy on write
 
 - 什么是 Copy on write？
 - 如何为结构体手动实现 Copy on write？
@@ -193,7 +193,7 @@
 
 ## 多线程
 
-#### 基础
+### 基础
 
 - 进程是什么？有哪几种状态？进程和线程的区别？
 - 什么是并发？什么是并行？并发和并行的区别？
@@ -207,7 +207,7 @@
 
 
 
-#### GCD
+### GCD
 
 - 你对 GCD 的理解？
 - 创建一个 GCD 队列？各个参数有什么作用？
@@ -223,7 +223,7 @@
 
 
 
-#### iOS 多线程同步、锁和文件读写
+### iOS 多线程同步、锁和文件读写
 
 - iOS 多线程同步方案有啷些？哪些锁的性能最好？
 - GCD 实现线程同步方案有哪几种？分别手写一个实例？
@@ -243,7 +243,7 @@
 
 
 
-#### Perform Selector
+### Perform Selector
 
 - 你对 Perform Selector 几个方法的理解？哪几种方法是同步执行的？哪几种方法是异步执行的？
 - 同步执行的底层原理是怎样的？
@@ -256,7 +256,7 @@
 
 ## RunLoop
 
-#### 基础
+### 基础
 
 - 什么是 RunLoop？对 RunLoop 的理解？
 - RunLoop 的启动方式有哪些？有什么区别
@@ -271,7 +271,7 @@
 
 
 
-#### 系统内 Runloop 的常见问题
+### 系统内 Runloop 的常见问题
 
 - RunLoop 和 AutoreleasePool 的关系？
 - autoreleasePool 在什么时候被释放？
@@ -283,7 +283,7 @@
 
 
 
-#### Runloop 的应用
+### Runloop 的应用
 
 - 自定义 Runloop 的应用线程保活
 - 如何实现一个常驻线程？
@@ -294,14 +294,14 @@
 
 ## Runtime
 
-#### 基础
+### 基础
 
 - 你对 Runtime 的理解？
 - dynamic 关键字的理解？
 
 
 
-#### Runtime 数据结构
+### Runtime 数据结构
 
 - Runtime 基础数据结构有哪些？对应的关系？
 - 实例对象数据结构？
@@ -313,7 +313,7 @@
 
 
 
-#### isa 指针
+### isa 指针
 
 - 对 OC 中 isa 的理解？
 - isa 的指向关系？
@@ -324,7 +324,7 @@
 
 
 
-#### Runtime 消息机制
+### Runtime 消息机制
 
 - OC 消息调用的本质是什么？
 - OC 动态方法派发的过程？
@@ -336,14 +336,14 @@
 
 
 
-#### Runtime的实际应用
+### Runtime的实际应用
 
 - runtime 场景API有了解吗？
 - 平常有用过 Runtime？一般来干什么？怎样实现？
 
 
 
-#### Swift 中的 Runtime 理解
+### Swift 中的 Runtime 理解
 
 - 你对 Swit 中 Runtime的理解？
 
@@ -353,7 +353,7 @@
 
 ## KVO & KVC
 
-#### KVC
+### KVC
 
 - 什么是 KVC？
 - KVC 的本质？
@@ -363,7 +363,7 @@
 
 
 
-#### KVO
+### KVO
 
 - 什么是 KVO？
 - KVO 的本质是什么？
@@ -372,7 +372,7 @@
 
 
 
-#### Swift 中的 KVO 和 KVC
+### Swift 中的 KVO 和 KVC
 
 - Swift 中有没有 KVC？原理是什么？
 - Swift 中如何使用 KVO？需要注意什么？
@@ -383,7 +383,7 @@
 
 ## 网络相关
 
-#### iOS 网络常见问题
+### iOS 网络常见问题
 
 - 怎样实现文件的断点下载？基本原理是什么？
 - 如何处理大文件的上传下载？边下边写基本原理？分段读取基本原理？
@@ -392,8 +392,8 @@
 
 
 
-#### 网络基础
-##### HTTP
+### 网络基础
+#### HTTP
 
 - 你是怎样理解 HTTP？具体包含哪些内容？报文结构？
 - HTTP 请求方案？状态码的含义？
@@ -406,7 +406,7 @@
 
 
 
-##### TCP/UDP
+#### TCP/UDP
 
 - 简单说一下 TCP/UDP 首部格式？
 - TCP/UDP 的特点？
@@ -419,7 +419,7 @@
 
 
 
-##### DNS 解析
+#### DNS 解析
 
 - DNS 的理解？
 - 查询方式？
@@ -428,7 +428,7 @@
 
 
 
-##### Session 和 Cookie
+#### Session 和 Cookie
 
 - Session 和 Cookie 的理解？
 - 交互流程？
@@ -440,7 +440,7 @@
 
 ## 数据结构和算法
 
-#### 数据结构基础
+### 数据结构基础
 
 - 你对数据结构的理解，什么是逻辑结构？什么是物理结构？常见数据结构有哪些？有什么特点？
 - 线性表的特点是什么？说一下线性链表和顺序表的优缺点对比？各自适用什么场景？
@@ -452,9 +452,9 @@
 
 
 
-#### 算法
+### 算法
 
-##### 排序
+#### 排序
 
 - 冒泡排序
 - 选择排序
@@ -463,7 +463,7 @@
 
 
 
-##### 链表
+#### 链表
 
 - 寻找单链表的中间元素？
 - 判断一个链表是否有环？有环则找出入口节点？有环则找出环上节点数？
@@ -480,7 +480,7 @@
 
 
 
-##### 二叉树
+#### 二叉树
 
 - 求二叉树深度？
 - 反转一颗二又树？
@@ -489,7 +489,7 @@
 
 
 
-#### 实际问题
+### 实际问题
 
 - 寻找两个 View 共同父视图？
 - 查找 View 上的所有 Button 控件(包含子 View)？
@@ -497,7 +497,7 @@
 
 
 
-#### 其他常见算法
+### 其他常见算法
 
 - 字符串反转
 - 只出现过一次的字符

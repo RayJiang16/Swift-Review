@@ -4,6 +4,6 @@
 
 
 
-#### Reference
+### Reference
 
 https://stackoverflow.com/questions/53471017/why-escaping-closures-require-us-to-refer-to-self-explicitly

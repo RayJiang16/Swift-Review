@@ -1,6 +1,6 @@
 ## .self 的理解
 
-#### 元类型
+### 元类型
 
 元类型就是类型的类型。
 
@@ -8,7 +8,7 @@
 
 
 
-#### .Type 与 .self
+### .Type 与 .self
 
 Swift 中的元类型用 `.Type` 表示。比如 `Int.Type` 就是 `Int` 的元类型。
 类型与值有着不同的形式，就像 `Int` 与 5 的关系。元类型也是类似，`.Type` 是类型，类型的 `.self` 是元类型的值。
@@ -19,7 +19,7 @@ let intMetatype: Int.Type = Int.self
 
 
 
-#### Code
+### Code
 
 ```swift
 // TableView 注册 Cell 的声明
@@ -30,6 +30,6 @@ tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
 
 
 
-#### Reference
+### Reference
 
 https://www.jianshu.com/p/36083d0404b9

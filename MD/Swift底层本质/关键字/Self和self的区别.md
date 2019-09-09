@@ -1,12 +1,12 @@
 ## Self 和 self 的区别
 
-#### self
+### self
 
 `self` 在实例方法中代指当前实例，在类方法中则代指当前类。
 
 
 
-#### Self
+### Self
 
 `Self` 有两种不同的用途
 
@@ -15,7 +15,7 @@
 
 
 
-#### Code
+### Code
 
 ```swift
 extension BinaryInteger {
@@ -27,6 +27,6 @@ extension BinaryInteger {
 
 
 
-#### Reference
+### Reference
 
 https://forums.developer.apple.com/thread/5479

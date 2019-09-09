@@ -1,18 +1,18 @@
 ## throws 和 rethrows 的区别？
 
-#### throws
+### throws
 
 当一个方法可能会出错，就需要在方法后面加上 `throws`
 
 
 
-#### rethrows
+### rethrows
 
 当一个闭包作为参数传入到一个方法中，如果这个闭包可能会出错，就需要在方法后面加上 `rethrows`
 
 
 
-#### Code
+### Code
 
 ```swift
 enum CustomError: Error {
@@ -39,6 +39,6 @@ public func map<T>(_ transform: (Element) throws -> T) rethrows -> [T]
 
 
 
-#### Reference
+### Reference
 
 https://stackoverflow.com/questions/43305051/what-are-the-differences-between-throws-and-rethrows-in-swift

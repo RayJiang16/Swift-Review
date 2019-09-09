@@ -1,24 +1,24 @@
 ## is, isKind, isMenber 的区别
 
-#### isMember
+### isMember
 
 用来判断该对象是否为指定类的对象
 
 
 
-#### isKind
+### isKind
 
 用来判断该对象是否为指定类或者指定类的子类的对象
 
 
 
-#### is
+### is
 
 `is` 的作用于 `isKind` 类似，区别在于 `is` 能用于 `struct` 和 `enum`
 
 
 
-#### Code
+### Code
 
 ```swift
 struct A { }
