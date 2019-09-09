@@ -139,15 +139,15 @@
 
 #### Swift 内存相关基础
 
-- iOS 内存布局结构？
-- 堆区和栈区的区别？为什么要设计堆和栈，主要解决哪些问题？
+- [iOS 内存布局结构？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/iOS内存布局.md)
+- [堆区和栈区的区别？为什么要设计堆和栈，主要解决哪些问题？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/堆区栈区.md)
 - Swift 对象堆空间申请过程？
 - Swift 里 let 和 var 变量的内存布局有何不同？
-- 内存布局为什么要内存对齐？对齐的规则？
+- [内存对齐是什么？为什么要内存对齐？对齐的规则？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/内存对齐.md)
+- [引用计数的存储方式？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/引用计数.md)
+- [ARC 在编译时和运行时分别做了哪些工作？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/ARC.md)
+- [retain, release 的实现机制？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/retain-release.md)
 - 你对 iOS 内存管理的理解？
-- 引用计数的存储方式？
-- ARC 在编译器和运行时分别做了哪些工作？
-- retain, release 的实现机制？
 
 
 
