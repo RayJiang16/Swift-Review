@@ -26,7 +26,6 @@
 - [计算型属性的本质是什么？占多少个字节？是存储在当前对象里的吗？可以用 let 修饰吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/计算属性.md)
 - [枚举的原始值的本质是什么？占几个字节？它在内存中是存储在枚举里吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/枚举.md)
 - [枚举可以定义存储属性吗？枚举可以定义类型存储属性吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/枚举2.md)
-- [关联类型枚举的内存布局是怎么样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/枚举3.md)
 - [lazy 属性可以用 let 修饰吗？lazy 属性是线程安全的吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/lazy.md)
 - [观察型属性在初始化的时候会触发吗？定义的时候给定默认值会触发吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/观察属性.md)
 - [inout 修饰的函数参数本质是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/inout.md)
@@ -153,13 +152,11 @@
 
 ### 内存布局
 
-- Swift 中结构体的内存布局？
-- Swift 中类的内存布局？有哪些数据结构？关系是怎样的？
+- [结构体的内存布局？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/结构体.md)
+- [类的内存布局？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/类.md)
+- [枚举的内存布局？有原始值的布局是怎样的？有关联值的布局又是怎样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/枚举.md)
+- [协议的内存布局？协议的属性存储在什么地方？VWT 是什么？PWT 又是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/协议.md)
 - Swift 和 OC 类对象内存布局的区别？
-- Swift 中枚举的内存布局？规则是什么？
-- Swift 中枚举中带关联值的布局是怎样的？不带又是怎样的？
-- Swift 中枚举中带原始值的布局是怎样的？不带又是怎样的？
-- Swift 中的协议的内存布局？协议的属性存储在什么地方？VWT 是什么？PWT 又是什么？
 
 
 
