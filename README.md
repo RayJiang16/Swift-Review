@@ -213,10 +213,9 @@
 
 ### 循环引用
 
-- 你对循环引用的理解？强引用和弱引用的区别？
-- weak 和 unowned 有什么区别？
-- 在什么场景下使用 weak？什么场景下使用 unowned？
-- weak 指针实现原理？为什么对象销毁后会被置为 nil？
+- [对循环引用的理解？强引用和弱引用的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/循环引用/循环引用.md)
+- [weak 和 unowned 有什么区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/循环引用/weak-unowned.md)
+- [weak 指针实现原理？为什么对象销毁后会被置为 nil？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/循环引用/weak.md)
 - 在 SideTable 里的存取过程又是怎样的？Side Table 的组成？为什么有多张 Side Table？Side Table 为什么会有一把自旋锁？
 - 说说循环引用的场景和解决思路？闭包为什么会产生循环引用？手写循环引用例子
 
