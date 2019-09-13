@@ -12,3 +12,10 @@
 ### 内存
 
 - [为什么要设计堆和栈，主要解决哪些问题？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/堆区栈区.md)
+
+
+
+### 多线程
+
+- [多线程间怎么通信？底层原理是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程通信.md)
+
