@@ -223,8 +223,8 @@
 
 ### 自动释放池
 
-- 什么是自动释放池？自动释放池的管理原理是怎样的？
-- autoreleasePoolRunloop 的关系？
+- [什么是自动释放池？自动释放池的管理原理是怎样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/自动释放池/autoreleasepool.md)
+- [AutoreleasePool 和 Runloop 的关系？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/自动释放池/autoreleasepool-runloop.md)
 
 
 
