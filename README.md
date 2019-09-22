@@ -256,17 +256,17 @@
 
 ### GCD
 
-- 你对 GCD 的理解？
-- 创建一个 GCD 队列？各个参数有什么作用？
-- GCD 有哪几种队列？主队列和全局队列分别是什么队列？
-- GCD 队列的执行方式有什么区别？不同队列不同执行方式的区别？主队列异步执行多个任务会开启新线程吗？为什么？
-- GCD 什么情况会发生死锁？原因是什么？这个原因是由于线程循环等待引起的还是队列？手写几种常见死锁情况？
-- GCD 任务提交方式有哪些？Dispatch Workltem 提交有什么好处
-- GCD 延迟执行 DispatchTime 和 DispatchWillTime 有什么区别？
-- 你对 DispatchSource 的理解？用过哪些 source？Dispatch Source Protoco 常见方案的作用？手写一个？DispatchSourceTimer 实现的定时器？它和 timer 比哪个更精准的？
-- Dispatch Group 的底层原理是什么？一般用在什么场景？有哪几种添加进组的方式，需要注意什么问题？
-- Dispatch_ barrier 的理解？一般用在什么场景？
-- Dispatch Semaphore 的理解？对信号量控制方法的理解？信号量底层原理又是怎样？一般用在什么场景？
+- [创建一个 GCD 队列？各个参数有什么作用？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/队列.md)
+- [GCD 有哪几种队列？主队列和全局队列分别是什么队列？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/队列2.md)
+- [GCD 队列的执行方式有什么区别？不同队列不同执行方式的区别？主队列异步执行多个任务会开启新线程吗？为什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/队列3.md)
+- [GCD 什么情况会发生死锁？原因是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/死锁.md)
+- [GCD 任务提交方式有哪些？DispatchWorkItem 提交有什么好处？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/任务提交.md)
+- [GCD 延迟执行 DispatchTime 和 DispatchWillTime 有什么区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/延迟执行.md)
+- [DispatchSource 的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchSource.md)
+- [DispatchSourceTimer 和 Timer 比哪个更精准的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchSourceTimer.md)
+- [DispatchGroup 的底层原理是什么？一般用在什么场景？有哪几种添加进组的方式？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchGroup.md)
+- [barrier 的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/栅栏.md)
+- [DispatchSemaphore 的理解？对信号量控制方法的理解？信号量底层原理是怎样？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchSemaphore.md)
 
 
 
