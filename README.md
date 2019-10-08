@@ -25,7 +25,7 @@
 - [多线程](#多线程)
   - [多线程基础](#多线程基础)
   - [GCD](#GCD)
-  - [多线程同步、锁和文件读写](#多线程同步、锁和文件读写)
+  - [多线程同步和锁](#多线程同步和锁)
   - [Perform Selector](#Perform-Selector)
 - [RunLoop](#RunLoop)
   - [RunLoop 基础](#RunLoop-基础)
@@ -246,11 +246,11 @@
 - [什么是并发？什么是并行？并发和并行的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/并发.md)
 - [对多线程的理解？多线程的底层原理？多线程的优缺点？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程理解.md)
 - [多线程有哪些实现方案？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程方案.md)
-- NSThread(对应 Swift 中的 Thread)内部实现的原理是什么？启动流程又是怎样的？2 种初始化方法有什么区别？
 - [怎样实现一个常驻线程？自定义 Runloop 的应用线程保活？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/常驻线程.md)
 - [多线程会有哪些安全隐患？一般有什么解决方案？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程隐患.md)
 - [死锁产生的条件有哪些？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/死锁.md)
 - [多线程间怎么通信？底层原理是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程通信.md)
+- NSThread(对应 Swift 中的 Thread)内部实现的原理是什么？启动流程又是怎样的？2 种初始化方法有什么区别？
 
 
 
@@ -270,23 +270,16 @@
 
 
 
-### 多线程同步、锁和文件读写
+### 多线程同步和锁
 
-- 多线程同步方案有哪些？哪些锁的性能最好？
-- GCD 实现线程同步方案有哪几种？分别手写一个实例？
-- 线程同步的各种锁的理解？有哪几种类型？
-- OSSpinLock 不安全的原因？
-- os_unfair_lock 怎样使用？
-- ρthread_mutex 锁的理解？有啷几种类型？普通 pthread_mutex 锁需要注意哪些问题？原因是什么？怎么解决？
-- ρthread_mutex 递归锁的理解？应用场景？
-- ρthread_mutex 带条件锁的理解？wait 和 signal 方法的理解？
-- wait 方法休眠时这个已加锁线程会放开锁吗？被唤醒时会自动加锁吗？signa 方法调用后被喚醒的其他线程会立马持有锁吗？什么时候其他线程有机会持有锁？
-- 带条件 ρthread_mutex 锁怎样使用？
-- NSLock 和 NSRecursiveLock 的理解？怎样使用？
-- NSCondition 条件锁的理解？怎样使用？
-- NSConditionLock 条件锁的理解？常用方法的理解？怎样使用？
-- 文件读写安全方案(多读单写)有哪几种解决方案？pthread_rwlock 的理解？怎样使用
-- DispatchBarrier 怎样实现多读单写？
+- [多线程同步方案有哪些？哪些锁的性能最好？](MD/多线程/多线程同步和锁/锁.md)
+- [线程同步的各种锁的理解？有哪几种类型？]()
+- [OSSpinLock 不安全的原因？]()
+- [os_unfair_lock 怎样使用？]()
+- [pthread_mutex 锁的理解？有哪几种类型？]()
+- [NSLock 和 NSRecursiveLock 的理解？]()
+- [NSConditionLock 条件锁的理解？怎样使用？]()
+- [文件读写安全方案(多读单写)有哪几种解决方案？]()
 
 
 
