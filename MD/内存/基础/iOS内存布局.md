@@ -1,6 +1,6 @@
 ## iOS 内存布局结构？
 
-![](https://github.com/RayJiang16/Swift-Review/blob/master/Image/内存/ios-memory-layout.png)
+![](../../../Image/内存/ios-memory-layout.png)
 
 - 代码段：编译之后的代码
 - 数据段：

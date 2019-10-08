@@ -2,7 +2,7 @@
 
 ### 大概描述一下 Swift 的编译流程？
 
-![](https://github.com/RayJiang16/Swift-Review/blob/master/Image/Swift底层本质/swift-compilation-process.jpg)
+![](../../../Image/Swift底层本质/swift-compilation-process.jpg)
 
 1. Swift 代码转换成 **ATS**（抽象语法树）
 2. ATS 转换成 **SIL** （Swift 中间语言）
