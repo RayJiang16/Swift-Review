@@ -59,13 +59,13 @@
 
 ### 关键字
 
-- [Self 和 self 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/Self和self的区别.md)
-- [.self 的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/self.md)
-- [.type 和 type(of: ) 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/type.md)
-- [AnyObject, Any, Anyclass 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/Any.md)
-- [is, isKind, isMenber 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/is.md)
-- [throws 和 rethrows 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/throws.md)
-- [open, public, internal, fileprivate, private 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/关键字/权限.md)
+- [Self 和 self 的区别？](MD/Swift底层本质/关键字/Self和self的区别.md)
+- [.self 的理解？](MD/Swift底层本质/关键字/self.md)
+- [.type 和 type(of: ) 的区别？](MD/Swift底层本质/关键字/type.md)
+- [AnyObject, Any, Anyclass 的区别？](MD/Swift底层本质/关键字/Any.md)
+- [is, isKind, isMenber 的区别？](MD/Swift底层本质/关键字/is.md)
+- [throws 和 rethrows 的区别？](MD/Swift底层本质/关键字/throws.md)
+- [open, public, internal, fileprivate, private 的区别？](MD/Swift底层本质/关键字/权限.md)
 
 
 
@@ -73,49 +73,49 @@
 
 #### Swift 各种属性的本质
 
-- [let 和 var 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/let和var的区别.md)
-- [计算型属性的本质是什么？占多少个字节？是存储在当前对象里的吗？可以用 let 修饰吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/计算属性.md)
-- [枚举的原始值的本质是什么？占几个字节？它在内存中是存储在枚举里吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/枚举.md)
-- [枚举可以定义存储属性吗？枚举可以定义类型存储属性吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/枚举2.md)
-- [lazy 属性可以用 let 修饰吗？lazy 属性是线程安全的吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/lazy.md)
-- [观察型属性在初始化的时候会触发吗？定义的时候给定默认值会触发吗？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/观察属性.md)
-- [inout 修饰的函数参数本质是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/inout.md)
-- [inout 参数能传递计算属性吗？传递计算属性的底层原理是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/inout2.md)
-- [inout 参数传递观察型属性会触发观察的 willSet 和 didSet 方法吗？底层原理是什么？为什么这样设计？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质/inout3.md)
+- [let 和 var 的区别？](MD/Swift底层本质/探究本质/let和var的区别.md)
+- [计算型属性的本质是什么？占多少个字节？是存储在当前对象里的吗？可以用 let 修饰吗？](MD/Swift底层本质/探究本质/计算属性.md)
+- [枚举的原始值的本质是什么？占几个字节？它在内存中是存储在枚举里吗？](MD/Swift底层本质/探究本质/枚举.md)
+- [枚举可以定义存储属性吗？枚举可以定义类型存储属性吗？](MD/Swift底层本质/探究本质/枚举2.md)
+- [lazy 属性可以用 let 修饰吗？lazy 属性是线程安全的吗？](MD/Swift底层本质/探究本质/lazy.md)
+- [观察型属性在初始化的时候会触发吗？定义的时候给定默认值会触发吗？](MD/Swift底层本质/探究本质/观察属性.md)
+- [inout 修饰的函数参数本质是什么？](MD/Swift底层本质/探究本质/inout.md)
+- [inout 参数能传递计算属性吗？传递计算属性的底层原理是什么？](MD/Swift底层本质/探究本质/inout2.md)
+- [inout 参数传递观察型属性会触发观察的 willSet 和 didSet 方法吗？底层原理是什么？为什么这样设计？](MD/Swift底层本质/探究本质/inout3.md)
 - 类型存储属性和 lazy 一样是延迟加载吗？如果一样那么是线程安全的吗？为什么？
 
 
 
 #### String, Array, Option 本质
 
-- [String 类型占多少个字节？String 类型变量的字面量在内存中是怎样存储的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质2/String.md)
-- [数组在内存中占多少个字节？数组存储在栈空间还是堆空间？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质2/Array.md)
-- [可选类型的本质？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/探究本质2/Option.md)
+- [String 类型占多少个字节？String 类型变量的字面量在内存中是怎样存储的？](MD/Swift底层本质/探究本质2/String.md)
+- [数组在内存中占多少个字节？数组存储在栈空间还是堆空间？](MD/Swift底层本质/探究本质2/Array.md)
+- [可选类型的本质？](MD/Swift底层本质/探究本质2/Option.md)
 
 
 
 #### Swift 闭包的本质
 
-- [闭包是什么？闭包表达式和闭包是什么关系？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/闭包/闭包.md)
-- [闭包值捕获的原理是什么？捕获到的值存储在哪里？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/闭包/闭包捕获.md)
+- [闭包是什么？闭包表达式和闭包是什么关系？](MD/Swift底层本质/闭包/闭包.md)
+- [闭包值捕获的原理是什么？捕获到的值存储在哪里？](MD/Swift底层本质/闭包/闭包捕获.md)
 - 捕获多个值时它们在内存中是连续存储的吗？
 - 一个捕获到 Int 值的闭包在内存中占几个字节？
-- [DispatchQueue.async 闭包体内为什么要强制加 self. 访问成员变量？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/闭包/DispatchQueue.md)
-- [逃逸闭包是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/闭包/逃逸闭包.md)
+- [DispatchQueue.async 闭包体内为什么要强制加 self. 访问成员变量？](MD/Swift底层本质/闭包/DispatchQueue.md)
+- [逃逸闭包是什么？](MD/Swift底层本质/闭包/逃逸闭包.md)
 
 
 
 #### Swift 多态&方法派发
 
-- [Swift 里是怎样实现多态的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/多态/多态.md)
-- [Swift 支持哪些方法派发方式？引用类型、值类型、协议的方法派发有什么不同？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/多态/方法派发.md)
-- [为什么建议使用 struct 而不使用 class？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/多态/Q1.md)
+- [Swift 里是怎样实现多态的？](MD/Swift底层本质/多态/多态.md)
+- [Swift 支持哪些方法派发方式？引用类型、值类型、协议的方法派发有什么不同？](MD/Swift底层本质/多态/方法派发.md)
+- [为什么建议使用 struct 而不使用 class？](MD/Swift底层本质/多态/Q1.md)
 
 
 
 #### Swift 里的指针
 
-- [Swift 里有那几种类型的指针？有什么区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/指针/指针.md)
+- [Swift 里有那几种类型的指针？有什么区别？](MD/Swift底层本质/指针/指针.md)
 
 
 
@@ -123,12 +123,12 @@
 
 #### 函数和协议编程 Swift 反射机制 Swift 性能优化
 
-- [大概描述一下 Swift 的编译流程？Swift 和 OC 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/特性和优化/Swift编译流程.md)
+- [大概描述一下 Swift 的编译流程？Swift 和 OC 的区别？](MD/Swift底层本质/特性和优化/Swift编译流程.md)
 - 面向协议编程的理解？对函数式编程的理解？
-- [map, flatMap, compactMap 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/特性和优化/map.md)
-- [filter, reduce 的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/特性和优化/filter-reduce.md)
-- [对反射机制的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/特性和优化/反射.md)
-- [如何优化 Swift 性能？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/Swift底层本质/特性和优化/优化.md)
+- [map, flatMap, compactMap 的区别？](MD/Swift底层本质/特性和优化/map.md)
+- [filter, reduce 的区别？](MD/Swift底层本质/特性和优化/filter-reduce.md)
+- [对反射机制的理解？](MD/Swift底层本质/特性和优化/反射.md)
+- [如何优化 Swift 性能？](MD/Swift底层本质/特性和优化/优化.md)
 
 
 
@@ -138,10 +138,10 @@
 
 ### 图像显示、卡顿优化和离屏渲染相关的问题
 
-- [图像绘制的原理和过程？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/图像绘制.md)
-- [卡顿掉帧的原因？卡顿掉帧应该怎么优化？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/卡顿掉帧.md)
-- [什么是离屏渲染？为什么会有离屏渲染机制？离屏渲染消耗性能的原因？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/离屏渲染.md)
-- [哪些场景会触发离屏渲染？怎么解决？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/图像/Q1.md)
+- [图像绘制的原理和过程？](MD/UI/图像/图像绘制.md)
+- [卡顿掉帧的原因？卡顿掉帧应该怎么优化？](MD/UI/图像/卡顿掉帧.md)
+- [什么是离屏渲染？为什么会有离屏渲染机制？离屏渲染消耗性能的原因？](MD/UI/图像/离屏渲染.md)
+- [哪些场景会触发离屏渲染？怎么解决？](MD/UI/图像/Q1.md)
 
 
 
@@ -165,8 +165,8 @@
 
 ### 事件传递/响应机制
 
-- [手指触摸屏幕后发生了什么？事件的传递和响应链是怎么样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/事件传递和响应/事件.md)
-- [hitTest 内部实现逻辑？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/UI/事件传递和响应/hitTest.md)
+- [手指触摸屏幕后发生了什么？事件的传递和响应链是怎么样的？](MD/UI/事件传递和响应/事件.md)
+- [hitTest 内部实现逻辑？](MD/UI/事件传递和响应/hitTest.md)
 - 事件传递具体有哪些应用场景？
 
 
@@ -189,33 +189,33 @@
 
 ### 内存基础
 
-- [iOS 内存布局结构？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/iOS内存布局.md)
-- [堆区和栈区的区别？为什么要设计堆和栈，主要解决哪些问题？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/堆区栈区.md)
+- [iOS 内存布局结构？](MD/内存/基础/iOS内存布局.md)
+- [堆区和栈区的区别？为什么要设计堆和栈，主要解决哪些问题？](MD/内存/基础/堆区栈区.md)
 - Swift 对象堆空间申请过程？
 - Swift 里 let 和 var 变量的内存布局有何不同？
-- [内存对齐是什么？为什么要内存对齐？对齐的规则？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/内存对齐.md)
-- [引用计数的存储方式？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/引用计数.md)
-- [ARC 在编译时和运行时分别做了哪些工作？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/ARC.md)
-- [retain, release 的实现机制？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/基础/retain-release.md)
+- [内存对齐是什么？为什么要内存对齐？对齐的规则？](MD/内存/基础/内存对齐.md)
+- [引用计数的存储方式？](MD/内存/基础/引用计数.md)
+- [ARC 在编译时和运行时分别做了哪些工作？](MD/内存/基础/ARC.md)
+- [retain, release 的实现机制？](MD/内存/基础/retain-release.md)
 - 你对 iOS 内存管理的理解？
 
 
 
 ### 内存布局
 
-- [结构体的内存布局？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/结构体.md)
-- [类的内存布局？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/类.md)
-- [枚举的内存布局？有原始值的布局是怎样的？有关联值的布局又是怎样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/枚举.md)
-- [协议的内存布局？协议的属性存储在什么地方？VWT 是什么？PWT 又是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/布局/协议.md)
+- [结构体的内存布局？](MD/内存/布局/结构体.md)
+- [类的内存布局？](MD/内存/布局/类.md)
+- [枚举的内存布局？有原始值的布局是怎样的？有关联值的布局又是怎样的？](MD/内存/布局/枚举.md)
+- [协议的内存布局？协议的属性存储在什么地方？VWT 是什么？PWT 又是什么？](MD/内存/布局/协议.md)
 - Swift 和 OC 类对象内存布局的区别？
 
 
 
 ### 循环引用
 
-- [对循环引用的理解？强引用和弱引用的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/循环引用/循环引用.md)
-- [weak 和 unowned 有什么区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/循环引用/weak-unowned.md)
-- [weak 指针实现原理？为什么对象销毁后会被置为 nil？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/循环引用/weak.md)
+- [对循环引用的理解？强引用和弱引用的区别？](MD/内存/循环引用/循环引用.md)
+- [weak 和 unowned 有什么区别？](MD/内存/循环引用/weak-unowned.md)
+- [weak 指针实现原理？为什么对象销毁后会被置为 nil？](MD/内存/循环引用/weak.md)
 - 在 SideTable 里的存取过程又是怎样的？Side Table 的组成？为什么有多张 Side Table？Side Table 为什么会有一把自旋锁？
 - 说说循环引用的场景和解决思路？闭包为什么会产生循环引用？手写循环引用例子
 
@@ -223,15 +223,15 @@
 
 ### 自动释放池
 
-- [什么是自动释放池？自动释放池的管理原理是怎样的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/自动释放池/autoreleasepool.md)
-- [AutoreleasePool 和 Runloop 的关系？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/自动释放池/autoreleasepool-runloop.md)
+- [什么是自动释放池？自动释放池的管理原理是怎样的？](MD/内存/自动释放池/autoreleasepool.md)
+- [AutoreleasePool 和 Runloop 的关系？](MD/内存/自动释放池/autoreleasepool-runloop.md)
 
 
 
 ### Copy on write
 
-- [什么是 Copy on write？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/copy-on-write/copy-on-write.md)
-- [如何为结构体手动实现 Copy on write？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/内存/copy-on-write/Q1.md)
+- [什么是 Copy on write？](MD/内存/copy-on-write/copy-on-write.md)
+- [如何为结构体手动实现 Copy on write？](MD/内存/copy-on-write/Q1.md)
 - Swift 对象的深度复制(使用 Codable 协议)
 
 
@@ -242,31 +242,31 @@
 
 ### 多线程基础
 
-- [进程是什么？有哪几种状态？进程和线程的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/进程.md)
-- [什么是并发？什么是并行？并发和并行的区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/并发.md)
-- [对多线程的理解？多线程的底层原理？多线程的优缺点？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程理解.md)
-- [多线程有哪些实现方案？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程方案.md)
-- [怎样实现一个常驻线程？自定义 Runloop 的应用线程保活？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/常驻线程.md)
-- [多线程会有哪些安全隐患？一般有什么解决方案？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程隐患.md)
-- [死锁产生的条件有哪些？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/死锁.md)
-- [多线程间怎么通信？底层原理是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/基础/多线程通信.md)
+- [进程是什么？有哪几种状态？进程和线程的区别？](MD/多线程/基础/进程.md)
+- [什么是并发？什么是并行？并发和并行的区别？](MD/多线程/基础/并发.md)
+- [对多线程的理解？多线程的底层原理？多线程的优缺点？](MD/多线程/基础/多线程理解.md)
+- [多线程有哪些实现方案？](MD/多线程/基础/多线程方案.md)
+- [怎样实现一个常驻线程？自定义 Runloop 的应用线程保活？](MD/多线程/基础/常驻线程.md)
+- [多线程会有哪些安全隐患？一般有什么解决方案？](MD/多线程/基础/多线程隐患.md)
+- [死锁产生的条件有哪些？](MD/多线程/基础/死锁.md)
+- [多线程间怎么通信？底层原理是什么？](MD/多线程/基础/多线程通信.md)
 - NSThread(对应 Swift 中的 Thread)内部实现的原理是什么？启动流程又是怎样的？2 种初始化方法有什么区别？
 
 
 
 ### GCD
 
-- [创建一个 GCD 队列？各个参数有什么作用？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/队列.md)
-- [GCD 有哪几种队列？主队列和全局队列分别是什么队列？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/队列2.md)
-- [GCD 队列的执行方式有什么区别？不同队列不同执行方式的区别？主队列异步执行多个任务会开启新线程吗？为什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/队列3.md)
-- [GCD 什么情况会发生死锁？原因是什么？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/死锁.md)
-- [GCD 任务提交方式有哪些？DispatchWorkItem 提交有什么好处？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/任务提交.md)
-- [GCD 延迟执行 DispatchTime 和 DispatchWillTime 有什么区别？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/延迟执行.md)
-- [DispatchSource 的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchSource.md)
-- [DispatchSourceTimer 和 Timer 比哪个更精准的？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchSourceTimer.md)
-- [DispatchGroup 的底层原理是什么？一般用在什么场景？有哪几种添加进组的方式？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchGroup.md)
-- [barrier 的理解？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/栅栏.md)
-- [DispatchSemaphore 的理解？对信号量控制方法的理解？信号量底层原理是怎样？](https://github.com/RayJiang16/Swift-Review/blob/master/MD/多线程/GCD/DispatchSemaphore.md)
+- [创建一个 GCD 队列？各个参数有什么作用？](MD/多线程/GCD/队列.md)
+- [GCD 有哪几种队列？主队列和全局队列分别是什么队列？](MD/多线程/GCD/队列2.md)
+- [GCD 队列的执行方式有什么区别？不同队列不同执行方式的区别？主队列异步执行多个任务会开启新线程吗？为什么？](MD/多线程/GCD/队列3.md)
+- [GCD 什么情况会发生死锁？原因是什么？](MD/多线程/GCD/死锁.md)
+- [GCD 任务提交方式有哪些？DispatchWorkItem 提交有什么好处？](MD/多线程/GCD/任务提交.md)
+- [GCD 延迟执行 DispatchTime 和 DispatchWillTime 有什么区别？](MD/多线程/GCD/延迟执行.md)
+- [DispatchSource 的理解？](MD/多线程/GCD/DispatchSource.md)
+- [DispatchSourceTimer 和 Timer 比哪个更精准的？](MD/多线程/GCD/DispatchSourceTimer.md)
+- [DispatchGroup 的底层原理是什么？一般用在什么场景？有哪几种添加进组的方式？](MD/多线程/GCD/DispatchGroup.md)
+- [barrier 的理解？](MD/多线程/GCD/栅栏.md)
+- [DispatchSemaphore 的理解？对信号量控制方法的理解？信号量底层原理是怎样？](MD/多线程/GCD/DispatchSemaphore.md)
 
 
 
