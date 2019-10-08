@@ -273,13 +273,13 @@
 ### 多线程同步和锁
 
 - [多线程同步方案有哪些？哪些锁的性能最好？](MD/多线程/多线程同步和锁/锁.md)
-- [线程同步的各种锁的理解？有哪几种类型？]()
-- [OSSpinLock 不安全的原因？]()
-- [os_unfair_lock 怎样使用？]()
-- [pthread_mutex 锁的理解？有哪几种类型？]()
-- [NSLock 和 NSRecursiveLock 的理解？]()
-- [NSConditionLock 条件锁的理解？怎样使用？]()
-- [文件读写安全方案(多读单写)有哪几种解决方案？]()
+- [线程同步的各种锁的理解？有哪几种类型？](MD/多线程/多线程同步和锁/各种锁的理解.md)
+- [OSSpinLock 不安全的原因？](MD/多线程/多线程同步和锁/OSSpinLock.md)
+- [os_unfair_lock 怎样使用？](MD/多线程/多线程同步和锁/os_unfair_lock.md)
+- [pthread_mutex 锁的理解？有哪几种类型？](MD/多线程/多线程同步和锁/pthread_mutex.md)
+- [NSLock 和 NSRecursiveLock 的理解？](MD/多线程/多线程同步和锁/NSLock.md)
+- [NSConditionLock 条件锁的理解？怎样使用？](MD/多线程/多线程同步和锁/NSConditionLock.md)
+- [文件读写安全方案(多读单写)有哪几种解决方案？](MD/多线程/多线程同步和锁/多读单写.md)
 
 
 
