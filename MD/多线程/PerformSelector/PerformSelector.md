@@ -17,7 +17,8 @@ open func perform(_ aSelector: Selector, with anArgument: Any?, afterDelay delay
 open func perform(_ aSelector: Selector, with anArgument: Any?, afterDelay delay: TimeInterval)
 ```
 
-这两个方法来自 `NSRunLoop`，为异步执行，即使 delay 传参为 0，仍为异步执行。主线程可以直接调用，子线程调用无效，因为这两个方法本质使用 `Timer` 启动的，而子线程的 `RunLoop` 默认是不开启的，不会触发 `Timer`，需要在调用 `perform` 后启动 `RunLoop` 才会生效。
+这两个方法来自 `NSRunLoop`，是异步执行，即使 delay 传参为 0，仍为异步执行。主线程可以直接调用，子线程调用无效，因为这两个方法本质是使用 `Timer` 启动的，而子线程的 `RunLoop` 默认是不开启的，不会触发 `Timer`，需要在调用 `perform` 后启动 `RunLoop` 才会生效。
+
 在方法未到执行时间之前，取消方法为：
 
 ```swift
@@ -33,7 +34,9 @@ open func performSelector(onMainThread aSelector: Selector, with arg: Any?, wait
 ```
 
 这两个方法来自 `NSThread`，在主线程和子线程中均可执行，均会调用主线程的 aSelector 方法；
+
 如果设置 wait 为 true 将阻塞当前线程，等待 `Selector` 执行完之后，才会继续执行后续代码。
+
 如果设置 wait 为 false 则不会阻塞当前线程。
 
 4.
@@ -51,7 +54,7 @@ open func perform(_ aSelector: Selector, on thr: Thread, with arg: Any?, waitUnt
 open func performSelector(inBackground aSelector: Selector, with arg: Any?)
 ```
 
-开启子线程在后台运行
+开启子线程在后台运行。
 
 
 
