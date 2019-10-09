@@ -285,10 +285,7 @@
 
 ### Perform Selector
 
-- 你对 Perform Selector 几个方法的理解？哪几种方法是同步执行的？哪几种方法是异步执行的？
-- 同步执行的底层原理是怎样的？
-- 异步延迟执行底层原理又是怎样的？
-- 线程间通信方法底层原理是怎样的？waitUntildone 有什么作用？inBackground 方法会开启新线程吗？
+- [你对 Perform Selector 几个方法的理解？哪几种方法是同步执行的？哪几种方法是异步执行的？](MD/多线程/PerformSelector/PerformSelector.md)
 
 
 
