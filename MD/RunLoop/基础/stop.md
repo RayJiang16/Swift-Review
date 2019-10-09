@@ -6,9 +6,9 @@
 
 所以想要控制 RunLoop 的退出时机有两个方案：
 
-1.使用 `CFRunLoopRun()` 启动 RunLoop
+1 使用 `CFRunLoopRun()` 启动 RunLoop
 
-2.
+2
 
 ```swift
 BOOL shouldKeepRunning = YES; // global
