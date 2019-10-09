@@ -295,16 +295,16 @@
 
 ### RunLoop 基础
 
-- 什么是 RunLoop？对 RunLoop 的理解？
-- RunLoop 的启动方式有哪些？有什么区别
-- RunLoop 的退出方式有哪些？有什么区别？
-- RunLoop 和线程有什么关系？线程间如何通信？
-- RunLoop 有哪几种 mode？对常见 mode 的理解？
-- 定时器滑动失效的原因？怎样处理？处理的生效原理？为什么 timer 不精准？如何实现精准的定时？
-- RunLoop 的事件源有唧些？特点是什么？
-- RunLoop 的监听状态有哪些？怎样监听？
-- RunLoop 的内部循环逻辑是怎样的？
+- [什么是 RunLoop？
+- [RunLoop 的启动方式有哪些？
+- [RunLoop 的退出方式有哪些？
+- [RunLoop 和线程有什么关系？线程间如何通信？
+- [RunLoop 有哪几种 mode？对常见 mode 的理解？
+- [RunLoop 的事件源有哪些？特点是什么？
+- [RunLoop 的监听状态有哪些？怎样监听？
+- [RunLoop 的内部循环逻辑是怎样的？
 - RunLoop 休眠的理解？处于 RunLoop 唤醒的方式有哪些？
+- 定时器滑动失效的原因？怎样处理？处理的生效原理？为什么 timer 不精准？如何实现精准的定时？
 
 
 
