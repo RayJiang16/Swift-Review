@@ -10,7 +10,9 @@ RunLoop 运行流程如下
 
 ### Reference
 
-[官方文献](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)
+[官方文档](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html#//apple_ref/doc/uid/10000057i-CH16-SW1)
+
+[深入理解RunLoop](https://blog.ibireme.com/2015/05/18/runloop/) 【建议阅读】
 
 https://juejin.im/post/5aca2b0a6fb9a028d700e1f8#heading-1
 
