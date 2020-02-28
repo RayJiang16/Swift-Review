@@ -61,7 +61,7 @@
 - [Self 和 self 的区别？](MD/Swift底层本质/关键字/Self和self的区别.md)
 - [.self 的理解？](MD/Swift底层本质/关键字/self.md)
 - [.type 和 type(of: ) 的区别？](MD/Swift底层本质/关键字/type.md)
-- [AnyObject, Any, Anyclass 的区别？](MD/Swift底层本质/关键字/Any.md)
+- [Any, AnyObject, Anyclass 的区别？](MD/Swift底层本质/关键字/Any.md)
 - [is, isKind, isMenber 的区别？](MD/Swift底层本质/关键字/is.md)
 - [throws 和 rethrows 的区别？](MD/Swift底层本质/关键字/throws.md)
 - [open, public, internal, fileprivate, private 的区别？](MD/Swift底层本质/关键字/权限.md)
@@ -345,9 +345,9 @@ Runtime 相关的知识点一环扣一环，如果你对 Runtime 还不了解，
 
 ### Runtime 消息机制
 
-- [消息发送的过程是怎样的？](MD/Runtime/isa/消息机制/消息发送.md)
-- [动态方法解析阶段的过程？](MD/Runtime/isa/消息机制/动态方法解析.md)
-- [消息转发的过程是怎样的？](MD/Runtime/isa/消息机制/消息转发.md)
+- [消息发送的过程是怎样的？](MD/Runtime/消息机制/消息发送.md)
+- [动态方法解析阶段的过程？](MD/Runtime/消息机制/动态方法解析.md)
+- [消息转发的过程是怎样的？](MD/Runtime/消息机制/消息转发.md)
 
 
 

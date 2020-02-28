@@ -11,7 +11,7 @@ let staicMetaType: String.Type = String.self
 ### type(of: )
 
 ```swift
-let instanceMetaType: String.Type = type(of: "string")
+let instanceMetaType: String.Type = type(of: "String")
 ```
 
 

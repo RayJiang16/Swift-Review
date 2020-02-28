@@ -1,4 +1,9 @@
-## AnyObject, Any, Anyclass 的区别
+## Any, AnyObject, Anyclass 的区别
+
+### Any
+
+`Any` 可以表示任意类型，甚至包括方法 (func) 类型
+
 
 ### AnyObject
 
@@ -6,13 +11,7 @@
 
 
 
-### Any
-
-`Any` 可以表示任意类型，甚至包括方法 (func) 类型
-
-
-
-### Anyclass
+### AnyClass
 
 通过 `AnyObject.Type` 这种方式得到的就是一个元类型（Meta），也就是 `AnyClass`
 

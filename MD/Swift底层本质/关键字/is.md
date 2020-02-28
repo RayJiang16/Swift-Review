@@ -8,7 +8,7 @@
 
 ### isKind
 
-用来判断该对象是否为指定类或者指定类的子类的对象
+用来判断该对象是否为指定类或者指定类的父类的对象
 
 
 
@@ -36,11 +36,13 @@ c.isMember(of: C.self) // true
 
 // isKind
 b.isKind(of: B.self) // true
+b.isKind(of: C.self) // false
 c.isKind(of: B.self) // true
 
 // is
 b is B // true
 c is B // true
+b is C // false
 a is A // true
 ```
 
