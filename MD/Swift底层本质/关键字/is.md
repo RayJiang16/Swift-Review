@@ -1,4 +1,4 @@
-## is, isKind, isMenber 的区别
+## is, isKind, isMember 的区别
 
 ### isMember
 
